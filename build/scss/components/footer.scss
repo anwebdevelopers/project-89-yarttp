@@ -1,3 +1,305 @@
 .footer {
+    margin-top: 4rem;
+    padding: 3rem 0 1rem 0;
+    color: #fff;
+    background-color: $color-main;
+    background-size: cover;
+    background-position: 50% 0;
+    background-repeat: no-repeat;
+}
 
+.footer__box {
+    margin: 0 -1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer__menu {
+    flex: 0 0 auto;
+    align-self: flex-start;
+    width: calc(80% - 2rem);
+    //margin: 2rem 1rem;
+
+    font-size: 1.4rem;
+    font-weight: 500;
+
+    display: flex;
+
+    ul {
+        padding: 0;
+        list-style: none;
+
+        flex: 0 0 auto;
+        width: calc(20% - 2rem);
+        margin: 2rem 1rem;
+
+        li {
+            margin-top: 1.25rem;
+            a {
+                text-decoration: none;
+                color: inherit;
+                background-image: linear-gradient(currentColor, currentColor);
+                background-size: 0 1px;
+                background-position: 0 100%;
+                background-repeat: no-repeat;
+                transition: .3s;
+
+                &:hover, &:active {
+                    background-size: 100% 1px;
+                }
+
+            }
+            b {
+                display: inline-block;
+                margin-bottom: 1.25rem;
+                text-transform: uppercase;
+                font-weight: 700;
+            }
+        }
+    }
+
+}
+.footer__aside {
+    flex: 0 0 auto;
+    align-self: flex-start;
+    width: calc(20% - 2rem);
+    margin: 2rem 1rem;
+}
+.footer__account {
+
+}
+.footer__account-item {
+    text-decoration: none;
+    color: inherit;
+    + .footer__account-item {
+        margin-top: 1.5rem;
+    }
+
+    display: flex;
+    align-items: center;
+
+    &:hover, &:active {
+        color: $color-accent;
+    }
+}
+.footer__account-icon {
+    flex: 0 0 auto;
+    width: 3.3rem;
+    height: 3.3rem;
+    margin-right: 1rem;
+    //color: $color-main;
+    svg {
+        max-width: 100%;
+        max-height: 100%;
+        width: auto;
+        height: auto;
+        fill: currentColor;
+        transition: .3s;
+    }
+}
+.footer__account-text {
+    font-size: 1.4rem;
+    font-weight: 700;
+    line-height: 1.25;
+    text-transform: uppercase;
+    transition: .3s;
+}
+.footer__sicial {
+    margin-top: 5rem;
+}
+.footer__social-title {
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+.footer__social-list {
+    padding: 0;
+    list-style: none;
+
+    margin: 1rem 0 0 0;
+
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+
+    li {
+        flex: 0 1 auto;
+        margin: 1rem;
+        a {
+            text-decoration: none;
+            color: inherit;
+            display: block;
+            width: 2.9rem;
+            height: 2.9rem;
+            svg {
+                max-width: 100%;
+                max-height: 100%;
+                width: auto;
+                height: auto;
+                fill: currentColor;
+            }
+            transition: .3s;
+            //color: $color-main;
+            &:hover, &:focus {
+                color: $color-accent;
+            }
+        }
+    }
+}
+.footer__copy {
+    flex: 0 0 auto;
+    margin: 2rem 1rem;
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+.footer__contacts {
+    flex: 0 0 auto;
+    margin: 2rem 1rem;
+    padding: 0;
+    list-style: none;
+
+    font-size: 1.4rem;
+    font-weight: 500;
+    li {
+        a {
+            text-decoration: none;
+            color: inherit;
+            background-image: linear-gradient(currentColor, currentColor);
+            background-size: 0 1px;
+            background-position: 0 100%;
+            background-repeat: no-repeat;
+            transition: .3s;
+
+            &:hover, &:active {
+                background-size: 100% 1px;
+            }
+        }
+    }
+}
+.footer__phone {
+    flex: 0 0 auto;
+    margin: 2rem 1rem;
+    font-size: 3.2rem;
+    line-height: 1;
+    font-weight: 500;
+    font-family: Arial, sans-serif;
+    a {
+        text-decoration: none;
+        color: inherit;
+        transition: .3s;
+
+        &:hover, &:active {
+            color: $color-accent;
+        }
+    }
+}
+.footer__creator {
+    flex: 0 0 auto;
+    margin: 2rem 1rem;
+}
+.footer__creator-title {
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+.footer__creator-box {
+    margin: 1rem -1rem 0 -1rem;
+
+    display: flex;
+    align-items: center;
+}
+.footer__creator-item {
+    display: block;
+    flex: 0 1 auto;
+    margin: 1rem;
+    img {
+        display: block;
+        max-width: 100%;
+        width: auto;
+        height: auto;
+    }
+}
+
+@media only screen and (max-width : 1440px) {
+
+}
+
+@media only screen and (max-width : 1280px) {
+
+}
+
+@media only screen and (max-width : 1024px) {
+    .footer__box {
+        align-items: flex-start;
+    }
+    .footer__menu {
+        width: 100%;
+    }
+    .footer__aside {
+        width: auto;
+    }
+}
+
+@media only screen and (max-width : 768px) {
+
+    .footer__menu {
+        flex-wrap: wrap;
+        ul {
+            width: calc(33.333% - 2rem);
+        }
+    }
+}
+
+@media only screen and (max-width : 640px) {
+
+}
+
+@media only screen and (max-width : 480px) {
+    .footer__box {
+        display: block;
+        //text-align: center;
+    }
+    .footer__menu {
+        flex-wrap: wrap;
+        ul {
+            width: calc(50% - 2rem);
+        }
+    }
+    .footer__account-item {
+        justify-content: center;
+    }
+    .footer__sicial {
+        text-align: center;
+    }
+    .footer__social-list {
+        justify-content: center;
+    }
+    .footer__copy {
+        margin-top: 4rem;
+        text-align: center;
+    }
+    .footer__contacts {
+        margin-top: 4rem;
+        text-align: center;
+    }
+    .footer__phone {
+        margin-top: 4rem;
+        text-align: center;
+    }
+    .footer__creator {
+        margin-top: 4rem;
+        text-align: center;
+    }
+    .footer__creator-box {
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width : 360px) {
+    .footer__menu {
+        display: block;
+        text-align: center;
+        ul {
+            width: auto;
+        }
+    }
 }

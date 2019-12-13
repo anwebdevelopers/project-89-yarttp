@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="42f91a77-5f6e-47ea-8c83-f0eb74a5d28b" name="Default Changelist" comment="" />
+    <list default="true" id="42f91a77-5f6e-47ea-8c83-f0eb74a5d28b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/scss/components/footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/build/scss/components/footer.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/scss/components/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/build/scss/components/header.scss" afterDir="false" />
+    </list>
     <list id="bf1cc2a1-eed9-4673-be9b-2a8bb0ebd5de" name="ignore" comment="ignore" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +72,10 @@
       <updated>1565691481432</updated>
       <workItem from="1565691483940" duration="2040000" />
       <workItem from="1576053022828" duration="3252000" />
-      <workItem from="1576120578579" duration="17813000" />
+      <workItem from="1576120578579" duration="18517000" />
+      <workItem from="1576204059522" duration="763000" />
+      <workItem from="1576227858597" duration="9431000" />
+      <workItem from="1576239254310" duration="149000" />
     </task>
     <task id="LOCAL-00001" summary="Стартовый коммит">
       <created>1565692588708</created>
@@ -101,10 +110,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="Стартовый коммит" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="656" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1576120598185">
+    <state x="656" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1576239259941">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="656" y="343" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/-1920.1.1920.1040@0.0.1920.1040" timestamp="1576120598185" />
+    <state x="656" y="343" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/-1920.1.1920.1040@0.0.1920.1040" timestamp="1576239259941" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1576127818909">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
