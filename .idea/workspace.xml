@@ -2,11 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="42f91a77-5f6e-47ea-8c83-f0eb74a5d28b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/img/img-activity-services-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/img-articles-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/img-articles-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/img-articles-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/img-articles-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/img-articles-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/img-articles-6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/img-subscribe.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/scss/components/about.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/scss/components/activity.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/scss/components/announcements.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/scss/components/articles.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/scss/components/page.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/scss/components/subscribe.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/scss/components/footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/build/scss/components/footer.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/scss/components/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/build/scss/components/header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/js/scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/scripts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/scss/components/_vars.scss" beforeDir="false" afterPath="$PROJECT_DIR$/build/scss/components/_vars.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/build/scss/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
     </list>
     <list id="bf1cc2a1-eed9-4673-be9b-2a8bb0ebd5de" name="ignore" comment="ignore" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,6 +43,7 @@
   <component name="ProjectId" id="1UpUR71uo3kZoN8hfMzP6rQIiY2" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="false" id="Update" />
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -33,6 +51,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/app/js" />
@@ -75,7 +94,8 @@
       <workItem from="1576120578579" duration="18517000" />
       <workItem from="1576204059522" duration="763000" />
       <workItem from="1576227858597" duration="9431000" />
-      <workItem from="1576239254310" duration="149000" />
+      <workItem from="1576239254310" duration="242000" />
+      <workItem from="1576465088831" duration="22882000" />
     </task>
     <task id="LOCAL-00001" summary="Стартовый коммит">
       <created>1565692588708</created>
@@ -84,7 +104,14 @@
       <option name="project" value="LOCAL" />
       <updated>1565692588708</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="13.12.2019">
+      <created>1576239486152</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1576239486152</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -106,14 +133,28 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Стартовый коммит" />
-    <option name="LAST_COMMIT_MESSAGE" value="Стартовый коммит" />
+    <MESSAGE value="13.12.2019" />
+    <option name="LAST_COMMIT_MESSAGE" value="13.12.2019" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="656" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1576239259941">
+    <state x="698" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1576482512876">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="656" y="343" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/-1920.1.1920.1040@0.0.1920.1040" timestamp="1576239259941" />
+    <state x="698" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/-1920.1.1920.1040@0.0.1920.1040" timestamp="1576482512876" />
+    <state x="585" y="113" key="CommitChangelistDialog2" timestamp="1576239484857">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="585" y="113" key="CommitChangelistDialog2/0.0.1920.1040/-1920.1.1920.1040@0.0.1920.1040" timestamp="1576239484857" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1576239487747">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.1.1920.1040@0.0.1920.1040" timestamp="1576239487747" />
+    <state x="656" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1576465353967">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="656" y="343" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/-1920.1.1920.1040@0.0.1920.1040" timestamp="1576465353967" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1576127818909">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

@@ -125,9 +125,42 @@ body {
 	clear: both;
 }
 
+.button {
+	@include btn;
+	padding: 1.2rem 2.5rem;
+	font-size: 1.4rem;
+	font-weight: 700;
+	color: #fff;
+	text-transform: uppercase;
+	border-radius: .5rem;
+	background-color: $color-accent;
+	text-align: center;
+	transition: .3s;
+
+	&:hover, &:active {
+		background-color: $color-main;
+	}
+
+	//&.button_color_white {
+	//	background-color: #fff;
+	//	//&:hover, &:active {
+	//	//	background-color: $color-main;
+	//	//}
+	//}
+	svg,
+	img {
+		display: inline-block;
+		vertical-align: middle;
+		max-width: 100%;
+		width: auto;
+		height: auto;
+		margin-right: .5rem;
+	}
+}
+
 .text {
 	&:not( :first-child ) {
-		margin-top: 6rem;
+		margin-top: 2rem;
 	}
 
 	&:after {
@@ -146,9 +179,9 @@ body {
 	}
 	h1, h2, h3, h4, h5, h6, p, ul, ol, img, blockquote {
 		&:not( [ class*="align-" ] ) {
-			margin-top: 5rem;
+			margin-top: 2rem;
 		}
-		margin-bottom: 5rem;
+		margin-bottom: 2rem;
 	}
 	ul,ol {
 		li {
@@ -189,11 +222,11 @@ body {
 	}
 	*.align-left {
 		float: left;
-		margin-right: 5rem;
+		margin-right: 2rem;
 	}
 	*.align-right {
 		float: right;
-		margin-left: 5rem;
+		margin-left: 2rem;
 	}
 	*.align-wide {
 		position: relative;
@@ -209,7 +242,7 @@ body {
 		// width: 112%;
 		margin-left: 0;
 		margin-right: 0;
-		padding: 4rem 4%;
+		padding: 3rem 4%;
 		border: .5rem solid currentColor;
 		font-style: italic;
 
@@ -240,7 +273,7 @@ body {
 		font-size: 1.4rem;
 
         th, td {
-            padding: 2rem;
+            padding: 1rem;
             text-align: left;
         }
         th {
@@ -255,8 +288,16 @@ body {
 }
 
 //Custom Styles Here
-@import 'components/header';
+@import "components/header";
 @import "components/footer";
+@import "components/page";
+@import "components/articles";
+@import "components/announcements";
+@import "components/subscribe";
+@import "components/about";
+@import "components/activity";
+
+@import "../../app/libs/swiper/css/swiper.min";
 
 @media only screen and (max-width : 1440px) {
 
