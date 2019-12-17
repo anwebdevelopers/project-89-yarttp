@@ -111,8 +111,7 @@ document.addEventListener( 'DOMContentLoaded', function( event ) {
                 .find( '.tabs__section' ).wrapAll( '<div class="tabs__box"></div>' )
                 .each( function () {
                     $tabs.find('.tabs__buttons').append( '<button type="button">' + $( this ).attr('data-tabs-title') + '</button>' );
-
-            } );
+                } );
 
             $tabs.find( '> .tabs__buttons button' ).first().attr( 'active', '' );
             $tabs.find( '> .tabs__box > .tabs__section' ).not( ':first-child' ).hide();
@@ -199,6 +198,91 @@ document.addEventListener( 'DOMContentLoaded', function( event ) {
 
             window.addEventListener( 'resize', function () {
                 activityCommitteesSwiper.updateSize();
+            } );
+        } );
+
+    } ( jQuery ) );
+
+
+
+    /*******************************************************/
+    //services SLIDER
+    /*******************************************************/
+    ( function( $ ) {
+
+        $( '.activity__services-box' ).each( function () {
+            const $activity__services_box = $( this );
+            $activity__services_box
+                .prev('.activity__services-head')
+                .append( '<div class="activity__services-thumbs"><div class="activity__services-thumbs-container swiper-container"><div class="activity__services-thumbs-wrapper swiper-wrapper"></div></div></div>' )
+                .end()
+                .find( '.activity__services-item' )
+                .addClass( 'swiper-slide' )
+                .wrapAll( '<div class="activity__services-container swiper-container"><div class="activity__services-wrapper swiper-wrapper"></div></div>' )
+                .each( function () {
+                    $activity__services_box.closest('.activity__services').find('.activity__services-thumbs-wrapper').append( '<button type="button" class="swiper-slide">' + $( this ).attr('data-services-title') + '</button>' );
+                } );
+
+            const activityServicesThumbsSwiper = new Swiper( $activity__services_box.prev('.activity__services-head').find( '.activity__services-thumbs-container' ), {
+                slidesPerView: 'auto',
+                //spaceBetween: 5,
+                loop: true,
+                loopedSlides: 10,
+                //freeMode: true,
+                //watchSlidesVisibility: true,
+                // watchSlidesProgress: true,
+                speed: 800,
+                // autoplay: {
+                //     delay: 3000,
+                // },
+            });
+
+            const activityServicesSwiper = new Swiper( $activity__services_box.find( '.activity__services-container' ), {
+
+                speed: 800,
+                spaceBetween: 20,
+                //autoHeight: true,
+                loop: true,
+                loopedSlides: 10,
+                autoplay: {
+                    delay: 3000,
+                },
+                thumbs: {
+                    swiper: activityServicesThumbsSwiper
+                }
+                /*pagination: {
+                    el: $activity__services_box.prev('.activity__services-head').find('.activity__services-dots'),
+                    clickable: true,
+                    type: 'bullets',
+                },
+                on: {
+                    paginationRender: function () {
+
+                        const thisSwiper = this;
+
+                        $(thisSwiper.pagination.bullets).each(function(i) {
+
+                            const itemandex = i;
+
+                            $(this).text($(thisSwiper.slides).eq(itemandex).attr('data-services-title'));
+
+                        });
+                    }
+                },*/
+            } );
+
+            // activityServicesThumbsSwiper.on('click', function () {
+            //     console.log(activityServicesThumbsSwiper.clickedIndex, activityServicesThumbsSwiper.clickedSlide);
+            //     activityServicesThumbsSwiper.slideTo(activityServicesThumbsSwiper.clickedIndex, 800, false);
+            // });
+
+            activityServicesSwiper.on('slideChange', function () {
+                console.log(activityServicesSwiper.activeIndex);
+                activityServicesThumbsSwiper.slideTo(activityServicesSwiper.activeIndex, 800, false);
+            });
+
+            window.addEventListener( 'resize', function () {
+                activityServicesSwiper.updateSize();
             } );
         } );
 
