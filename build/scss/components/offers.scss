@@ -1,0 +1,102 @@
+.offers {
+    padding: 3rem 0;
+    overflow: hidden;
+}
+.offers__box {
+    margin-top: 2rem;
+
+    .swiper-container {
+        overflow: visible;
+        
+        position: relative;
+        &:before {
+            content: '';
+            position: absolute;
+            z-index: 2;
+            top: 0;
+            right: 100%;
+            bottom: 0;
+            width: 100vw;
+            background-color: #fff;
+        }
+        .swiper-wrapper {
+
+        }
+    }
+
+    .offers__dots {
+        position: relative;
+        z-index: 1;
+        margin-top: 1.5rem;
+
+
+        display: flex;
+        flex-wrap: wrap;
+
+        &.swiper-pagination-bullets {
+            bottom: initial;
+            left: initial;
+            width: initial;
+            .swiper-pagination-bullet {
+                width: initial;
+                height: initial;
+                display: initial;
+                border-radius: initial;
+                background: initial;
+                opacity: initial;
+
+                margin: 0;
+                outline: none;
+
+                display: block;
+                flex: 0 0 auto;
+                width: 4rem;
+                height: .4rem;
+                margin-right: .5rem;
+                background-color: $color-main;
+                opacity: .25;
+                transition: .3s;
+
+
+
+                &.swiper-pagination-bullet-active {
+                    opacity: 1;
+                }
+
+                &:hover, &:active {
+                    opacity: 1;
+                }
+            }
+        }
+    }
+}
+.offers__item {
+    margin-top: 2rem;
+    padding: 3rem 5rem 3rem 3rem;
+    border-radius: .5rem;
+    background-color: #F4F7FA;
+
+    position: relative;
+    &:before {
+        content: '';
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 4rem;
+        height: 4rem;
+        border-bottom-left-radius: .5rem;
+        background-image: linear-gradient(to top right, $color-main, $color-main 50%, #fff 50%, #fff);
+    }
+}
+.offers__item-date {
+    font-size: 1.2rem;
+    opacity: .5;
+}
+.offers__item-title {
+    margin: 1rem 0 0 0;
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+.offers__item-text {
+    font-weight: 500;
+}

@@ -1,6 +1,6 @@
-document.addEventListener( 'DOMContentLoaded', function( event ) {
+'use strict';
 
-    'use strict';
+document.addEventListener( 'DOMContentLoaded', function( event ) {
 
     const $window = $(window);
 
@@ -43,12 +43,6 @@ document.addEventListener( 'DOMContentLoaded', function( event ) {
 
     }(jQuery));
 
-    /*******************************************************/
-    //SUBMENU MOBILE
-    /*******************************************************/
-
-    ( function( $ ) {
-    }(jQuery));
 
     /*******************************************************/
     //ARTICLES SLIDER
@@ -98,30 +92,6 @@ document.addEventListener( 'DOMContentLoaded', function( event ) {
         } );
 
     } ( jQuery ) );
-
-    /*******************************************************/
-    //TABS
-    /*******************************************************/
-
-    ( function( $ ) {
-
-        $('.tabs').each( function () {
-            const $tabs = $( this );
-            $tabs.prepend( '<div class="tabs__buttons"></div>' )
-                .find( '.tabs__section' ).wrapAll( '<div class="tabs__box"></div>' )
-                .each( function () {
-                    $tabs.find('.tabs__buttons').append( '<button type="button">' + $( this ).attr('data-tabs-title') + '</button>' );
-                } );
-
-            $tabs.find( '> .tabs__buttons button' ).first().attr( 'active', '' );
-            $tabs.find( '> .tabs__box > .tabs__section' ).not( ':first-child' ).hide();
-            $tabs.find( '> .tabs__buttons' ).on( 'click', 'button:not( [ active ] )', function() {
-                $( this ).attr( 'active', '' ).siblings().removeAttr( 'active' ).closest( '.tabs' ).find( '> .tabs__box > .tabs__section' ).slideUp( 300 ).eq( $( this ).index() ).slideDown( 300 );
-            } );
-        } );
-
-    } ( jQuery) );
-
 
     /*******************************************************/
     //ANNOUNCEMENTS SLIDER
@@ -203,8 +173,6 @@ document.addEventListener( 'DOMContentLoaded', function( event ) {
 
     } ( jQuery ) );
 
-
-
     /*******************************************************/
     //services SLIDER
     /*******************************************************/
@@ -220,7 +188,7 @@ document.addEventListener( 'DOMContentLoaded', function( event ) {
                 .addClass( 'swiper-slide' )
                 .wrapAll( '<div class="activity__services-container swiper-container"><div class="activity__services-wrapper swiper-wrapper"></div></div>' )
                 .each( function () {
-                    $activity__services_box.closest('.activity__services').find('.activity__services-thumbs-wrapper').append( '<button type="button" class="swiper-slide">' + $( this ).attr('data-services-title') + '</button>' );
+                    $activity__services_box.closest('.activity__services').find('.activity__services-thumbs-wrapper').append( '<div class="swiper-slide">' + $( this ).attr('data-services-title') + '</div>' );
                 } );
 
             const activityServicesThumbsSwiper = new Swiper( $activity__services_box.prev('.activity__services-head').find( '.activity__services-thumbs-container' ), {
@@ -245,7 +213,7 @@ document.addEventListener( 'DOMContentLoaded', function( event ) {
                 loop: true,
                 loopedSlides: 10,
                 autoplay: {
-                    delay: 3000,
+                    delay: 5000,
                 },
                 thumbs: {
                     swiper: activityServicesThumbsSwiper
@@ -283,6 +251,89 @@ document.addEventListener( 'DOMContentLoaded', function( event ) {
 
             window.addEventListener( 'resize', function () {
                 activityServicesSwiper.updateSize();
+            } );
+        } );
+
+    } ( jQuery ) );
+
+    /*******************************************************/
+    //TABS
+    /*******************************************************/
+
+    ( function( $ ) {
+
+        $('.tabs').each( function () {
+            const $tabs = $( this );
+            $tabs.prepend( '<div class="tabs__buttons"></div>' )
+                .find( '.tabs__section' ).wrapAll( '<div class="tabs__box"></div>' )
+                .each( function () {
+                    $tabs.find('.tabs__buttons').append( '<button type="button">' + $( this ).attr('data-tabs-title') + '</button>' );
+                } );
+
+            $tabs.find( '> .tabs__buttons button' ).first().attr( 'active', '' );
+            $tabs.find( '> .tabs__box > .tabs__section' ).not( ':first-child' ).hide();
+            $tabs.find( '> .tabs__buttons' ).on( 'click', 'button:not( [ active ] )', function() {
+                $( this ).attr( 'active', '' ).siblings().removeAttr( 'active' ).closest( '.tabs' ).find( '> .tabs__box > .tabs__section' ).slideUp( 300 ).eq( $( this ).index() ).slideDown( 300 );
+            } );
+        } );
+
+    } ( jQuery) );
+
+    /*******************************************************/
+    //EVENTS
+    /*******************************************************/
+    ( function( $ ) {
+        $('.events__box').each(function () {
+            const $events = $( this );
+            $events.prev('.events__head').append('<div class="events__buttons"></div>' )
+            $events.find( '.events__section' )
+                .each( function () {
+                    $events.prev('.events__head').find('.events__buttons').append( '<button type="button">' + $( this ).attr('data-events-title') + '</button>' );
+                } );
+            $events.prev('.events__head').find( '> .events__buttons button' ).first().attr( 'active', '' );
+            $events.find( '> .events__section' ).not( ':first-child' ).hide();
+            $events.prev('.events__head').find( '> .events__buttons' ).on( 'click', 'button:not( [ active ] )', function() {
+                $( this ).attr( 'active', '' ).siblings().removeAttr( 'active' );
+                $events.find( '> .events__section' ).slideUp( 300 ).eq( $( this ).index() ).slideDown( 300 );
+            } );
+        })
+
+    } ( jQuery) );
+
+    /*******************************************************/
+    //ANNOUNCEMENTS SLIDER
+    /*******************************************************/
+    ( function( $ ) {
+
+        $( '.offers__box' ).each( function () {
+
+            const $offers__box = $( this );
+            $offers__box.prepend( '<div class="offers__dots"></div>' )
+                .find( '.offers__item' )
+                .addClass( 'swiper-slide' )
+                .wrapAll( '<div class="offers__container swiper-container"><div class="offers__wrapper swiper-wrapper"></div></div>' );
+
+            const offersSwiper = new Swiper( $offers__box.find( '.offers__container' ), {
+
+                speed: 800,
+                spaceBetween: 20,
+                // autoHeight: true,
+                loop: true,
+
+                // autoplay: {
+                //     delay: 15000,
+                // },
+
+                pagination: {
+                    el: $offers__box.find('.offers__dots'),
+                    clickable: true,
+                    type: 'bullets',
+                },
+
+            } );
+
+            window.addEventListener( 'resize', function () {
+                offersSwiper.updateSize();
             } );
         } );
 

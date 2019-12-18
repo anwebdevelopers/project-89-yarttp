@@ -115,7 +115,7 @@ body {
 	overflow-x: hidden;
 }
 .container {
-	max-width: calc( 1280px + 8% );
+	max-width: calc( 1180px + 8% );
 	padding: 0 4%;
 	margin: 0 auto;
 }
@@ -296,6 +296,14 @@ body {
 @import "components/subscribe";
 @import "components/about";
 @import "components/activity";
+@import "components/events";
+@import "components/media";
+@import "components/voting";
+@import "components/offers";
+@import "components/logos";
+@import "components/parthners";
+
+@import "components/form";
 
 @import "../../app/libs/swiper/css/swiper.min";
 

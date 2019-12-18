@@ -2,11 +2,50 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="42f91a77-5f6e-47ea-8c83-f0eb74a5d28b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/img/img-events-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/img-events-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/img-events-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/img-logos-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/img-logos-10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/img-logos-11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/img-logos-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/img-logos-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/img-logos-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/img-logos-5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/img-logos-6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/img-logos-7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/img-logos-8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/img-logos-9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/img-media-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/img-media-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/img-media-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/img-media-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/img-media-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/img-media-6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/img-media-7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/img-media-8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/img-media-9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/img-parthners-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/img-parthners-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/img-parthners-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/img-parthners-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/scss/components/events.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/scss/components/logos.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/scss/components/media.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/scss/components/offers.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/scss/components/parthners.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/scss/components/voting.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/js/full.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/scss/components/_media.scss" beforeDir="false" afterPath="$PROJECT_DIR$/build/scss/components/_breakpoints.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/scss/components/activity.scss" beforeDir="false" afterPath="$PROJECT_DIR$/build/scss/components/activity.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/scss/components/form.scss" beforeDir="false" afterPath="$PROJECT_DIR$/build/scss/components/form.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/scss/components/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/build/scss/components/header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/scss/components/page.scss" beforeDir="false" afterPath="$PROJECT_DIR$/build/scss/components/page.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/build/scss/main.scss" afterDir="false" />
     </list>
     <list id="bf1cc2a1-eed9-4673-be9b-2a8bb0ebd5de" name="ignore" comment="ignore" />
     <option name="SHOW_DIALOG" value="false" />
@@ -79,7 +118,8 @@
       <workItem from="1576227858597" duration="9431000" />
       <workItem from="1576239254310" duration="242000" />
       <workItem from="1576465088831" duration="22907000" />
-      <workItem from="1576570353304" duration="13418000" />
+      <workItem from="1576570353304" duration="13450000" />
+      <workItem from="1576632546114" duration="20801000" />
     </task>
     <task id="LOCAL-00001" summary="Стартовый коммит">
       <created>1565692588708</created>
@@ -102,7 +142,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576505318324</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="17.12.2019">
+      <created>1576587757071</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1576587757071</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -127,25 +174,26 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Стартовый коммит" />
     <MESSAGE value="13.12.2019" />
-    <option name="LAST_COMMIT_MESSAGE" value="13.12.2019" />
+    <MESSAGE value="17.12.2019" />
+    <option name="LAST_COMMIT_MESSAGE" value="17.12.2019" />
   </component>
   <component name="WindowStateProjectService">
     <state x="698" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1576482512876">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="698" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/-1920.1.1920.1040@0.0.1920.1040" timestamp="1576482512876" />
-    <state x="585" y="113" key="CommitChangelistDialog2" timestamp="1576505316814">
+    <state x="585" y="113" key="CommitChangelistDialog2" timestamp="1576587756113">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="585" y="113" key="CommitChangelistDialog2/0.0.1920.1040/-1920.1.1920.1040@0.0.1920.1040" timestamp="1576505316814" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1576505328250">
+    <state x="585" y="113" key="CommitChangelistDialog2/0.0.1920.1040/-1920.1.1920.1040@0.0.1920.1040" timestamp="1576587756113" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1576587758922">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.1.1920.1040@0.0.1920.1040" timestamp="1576505328250" />
-    <state x="656" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1576570650617">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.1.1920.1040@0.0.1920.1040" timestamp="1576587758922" />
+    <state x="656" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1576632597803">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="656" y="343" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/-1920.1.1920.1040@0.0.1920.1040" timestamp="1576570650617" />
+    <state x="656" y="343" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/-1920.1.1920.1040@0.0.1920.1040" timestamp="1576632597803" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1576127818909">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

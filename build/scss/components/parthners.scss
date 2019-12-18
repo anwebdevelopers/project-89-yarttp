@@ -1,0 +1,60 @@
+.parthners {
+    padding: 3rem 0;
+}
+
+.parthners__box {
+    margin: 2rem -1rem 0 -1rem;
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.parthners__item {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+
+    flex: 0 0 auto;
+    width: calc(25% - 2rem);
+    margin: 2rem 1rem 0 1rem;
+    background-color: #F0F0F0;
+
+    img {
+        display: block;
+        max-width: 100%;
+        width: auto;
+        height: auto;
+        border-radius: .5rem;
+    }
+}
+@media only screen and (max-width : 1440px) {
+
+}
+
+@media only screen and (max-width : 1280px) {
+
+}
+
+@media only screen and (max-width : 1024px) {
+
+}
+
+@media only screen and (max-width : 768px) {
+    .parthners__item {
+        width: calc(33.3333% - 2rem);
+    }
+}
+
+@media only screen and (max-width : 640px) {
+
+}
+
+@media only screen and (max-width : 480px) {
+    .parthners__item {
+        width: calc(50% - 2rem);
+    }
+}
+
+@media only screen and (max-width : 360px) {
+
+}
