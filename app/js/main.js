@@ -339,4 +339,60 @@ document.addEventListener( 'DOMContentLoaded', function( event ) {
 
     } ( jQuery ) );
 
+
+    /*******************************************************/
+    //CALENDAR
+    /*******************************************************/
+
+    ( function( $ ) {
+
+
+        const calendar = document.getElementById('calendar');
+
+        if (calendar) {
+
+            // Add a new language
+            jsCalendar.addLanguage({
+                // Language code
+                code : 'ru',
+                // Months of the year
+                months : [
+                    'январь',
+                    'февраль',
+                    'март',
+                    'апрель',
+                    'май',
+                    'июнь',
+                    'июль',
+                    'август',
+                    'сентябрь',
+                    'октябрь',
+                    'ноябрь',
+                    'декабрь'
+                ],
+                // Days of the week
+                days : [
+                    'вс',
+                    'пн',
+                    'вт',
+                    'ср',
+                    'чт',
+                    'пт',
+                    'сб'
+                ]
+            });
+
+            jsCalendar.new({
+                target : calendar,
+                navigator : true,
+                // navigatorPosition : 'left',
+                zeroFill : false,
+                monthFormat : 'month YYYY',
+                dayFormat : 'DD',
+                language : 'ru'
+            });
+        }
+
+    } ( jQuery ) );
+
 });
