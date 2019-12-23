@@ -2,119 +2,80 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="42f91a77-5f6e-47ea-8c83-f0eb74a5d28b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/img/img-aside-contacts.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/img/img-aside-media-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/img/img-aside-media-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/img/img-aside-media-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/img/img-aside-media-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/img/img-aside-nav.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/img/img-aside-services.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/img/img-aside-subscribe.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/img/img-journal.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/img/img-news-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/img/img-news-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/img/img-news-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/img/img-news-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/img/img-news-5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/img/img-services-1.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/img/img-services-2.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/img/img-services-3.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/img/img-services-4.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/img/img-services-5.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/img/img-services-6.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/img/img-services-7.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/img/img-services-8.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/jsCalendar/examples/attribute version.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/jsCalendar/examples/calendar creation with selectors.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/jsCalendar/examples/calendar creation.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/jsCalendar/examples/calendar events.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/jsCalendar/examples/calendar object get set del.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/jsCalendar/examples/calendar options.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/jsCalendar/examples/calendar render handlers.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/jsCalendar/examples/extensions/datepicker-bootstrap.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/jsCalendar/examples/extensions/datepicker-element-position-detection.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/jsCalendar/examples/extensions/datepicker.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/jsCalendar/examples/extensions/example-extension.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/jsCalendar/examples/goto a date method.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/jsCalendar/examples/language parameter and methods setLanguage.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/jsCalendar/examples/languages.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/jsCalendar/examples/min max parameters and methods.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/jsCalendar/examples/next previous methods.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/jsCalendar/examples/parameters day format.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/jsCalendar/examples/parameters first day of the week.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/jsCalendar/examples/parameters month format.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/jsCalendar/examples/parameters navigator position.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/jsCalendar/examples/parameters navigator.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/jsCalendar/examples/parameters zero fill.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/jsCalendar/examples/refresh method.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/jsCalendar/examples/reset method.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/jsCalendar/examples/select unselect and clear days methods.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/jsCalendar/examples/set date method.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/jsCalendar/examples/theme classic.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/jsCalendar/examples/theme clean.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/jsCalendar/examples/theme colors all.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/jsCalendar/examples/theme colors.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/jsCalendar/examples/theme custom colors.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/jsCalendar/examples/theme darkseries.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/jsCalendar/examples/theme default.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/jsCalendar/examples/theme material.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/jsCalendar/examples/theme micro.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/jsCalendar/extensions/jsCalendar.datepicker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/jsCalendar/extensions/jsCalendar.datepicker.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/jsCalendar/source/jsCalendar.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/jsCalendar/source/jsCalendar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/jsCalendar/source/jsCalendar.lang.ar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/jsCalendar/source/jsCalendar.lang.be.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/jsCalendar/source/jsCalendar.lang.ca.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/jsCalendar/source/jsCalendar.lang.de.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/jsCalendar/source/jsCalendar.lang.es.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/jsCalendar/source/jsCalendar.lang.fr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/jsCalendar/source/jsCalendar.lang.gr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/jsCalendar/source/jsCalendar.lang.hu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/jsCalendar/source/jsCalendar.lang.it.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/jsCalendar/source/jsCalendar.lang.ja.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/jsCalendar/source/jsCalendar.lang.ko.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/jsCalendar/source/jsCalendar.lang.nl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/jsCalendar/source/jsCalendar.lang.no.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/jsCalendar/source/jsCalendar.lang.pl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/jsCalendar/source/jsCalendar.lang.pt.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/jsCalendar/source/jsCalendar.lang.ru.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/jsCalendar/source/jsCalendar.lang.sk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/jsCalendar/source/jsCalendar.lang.sv.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/jsCalendar/source/jsCalendar.lang.template.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/jsCalendar/source/jsCalendar.lang.th.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/jsCalendar/source/jsCalendar.lang.tr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/jsCalendar/source/jsCalendar.lang.uk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/jsCalendar/source/jsCalendar.lang.zh.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/jsCalendar/source/jsCalendar.loader.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/jsCalendar/source/jsCalendar.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/jsCalendar/source/jsCalendar.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/jsCalendar/themes/jsCalendar.clean.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/jsCalendar/themes/jsCalendar.clean.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/jsCalendar/themes/jsCalendar.darkseries.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/jsCalendar/themes/jsCalendar.darkseries.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/jsCalendar/themes/jsCalendar.micro.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/libs/jsCalendar/themes/jsCalendar.micro.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/news-list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/service-category.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/services.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/scss/components/aside-contacts.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/scss/components/aside-nav.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/scss/components/aside-request.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/scss/components/aside-services.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/scss/components/calendar.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/scss/components/news.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/scss/components/services.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/bg-aside-data.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/img-aside-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/img-aside-news-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/img-aside-news-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/img-aside-news-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/img-aside-news-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/img-aside-news-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/img-aside-news-6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/img-news-article-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/img-news-article-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/img-news-article-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/img-news-article-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/members-item.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/members-list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/news-article.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/scss/components/article-head.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/scss/components/aside-data.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/scss/components/aside-journal.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/scss/components/aside-media.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/scss/components/aside-news.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/scss/components/aside-subscribe.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/scss/components/company-news.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/scss/components/filter.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/scss/components/member.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/scss/components/members.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/scss/components/search.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/img-aside-subscribe.svg" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/img-aside-subscribe.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/img-journal.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/img-journal.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/js/scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/scripts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/scss/components/activity.scss" beforeDir="false" afterPath="$PROJECT_DIR$/build/scss/components/activity.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/scss/components/articles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/build/scss/components/articles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/jsCalendar/examples/attribute version.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/jsCalendar/examples/calendar creation with selectors.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/jsCalendar/examples/calendar creation.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/jsCalendar/examples/calendar events.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/jsCalendar/examples/calendar object get set del.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/jsCalendar/examples/calendar options.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/jsCalendar/examples/calendar render handlers.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/jsCalendar/examples/extensions/datepicker-bootstrap.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/jsCalendar/examples/extensions/datepicker-element-position-detection.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/jsCalendar/examples/extensions/datepicker.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/jsCalendar/examples/extensions/example-extension.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/jsCalendar/examples/goto a date method.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/jsCalendar/examples/language parameter and methods setLanguage.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/jsCalendar/examples/languages.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/jsCalendar/examples/min max parameters and methods.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/jsCalendar/examples/next previous methods.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/jsCalendar/examples/parameters day format.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/jsCalendar/examples/parameters first day of the week.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/jsCalendar/examples/parameters month format.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/jsCalendar/examples/parameters navigator position.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/jsCalendar/examples/parameters navigator.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/jsCalendar/examples/parameters zero fill.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/jsCalendar/examples/refresh method.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/jsCalendar/examples/reset method.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/jsCalendar/examples/select unselect and clear days methods.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/jsCalendar/examples/set date method.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/jsCalendar/examples/theme classic.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/jsCalendar/examples/theme clean.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/jsCalendar/examples/theme colors all.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/jsCalendar/examples/theme colors.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/jsCalendar/examples/theme custom colors.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/jsCalendar/examples/theme darkseries.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/jsCalendar/examples/theme default.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/jsCalendar/examples/theme material.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/jsCalendar/examples/theme micro.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/news-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/news-list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/service-category.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/service-category.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/services.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/services-list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/scss/components/form.scss" beforeDir="false" afterPath="$PROJECT_DIR$/build/scss/components/form.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/scss/components/page.scss" beforeDir="false" afterPath="$PROJECT_DIR$/build/scss/components/page.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/scss/components/subscribe.scss" beforeDir="false" afterPath="$PROJECT_DIR$/build/scss/components/subscribe.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/build/scss/main.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
     </list>
     <list id="bf1cc2a1-eed9-4673-be9b-2a8bb0ebd5de" name="ignore" comment="ignore" />
     <option name="SHOW_DIALOG" value="false" />
@@ -190,7 +151,11 @@
       <workItem from="1576465088831" duration="22907000" />
       <workItem from="1576570353304" duration="13450000" />
       <workItem from="1576632546114" duration="20833000" />
-      <workItem from="1576721714402" duration="21022000" />
+      <workItem from="1576721714402" duration="21093000" />
+      <workItem from="1576833903039" duration="4000" />
+      <workItem from="1576902082473" duration="2201000" />
+      <workItem from="1576983674928" duration="602000" />
+      <workItem from="1577068228503" duration="19770000" />
     </task>
     <task id="LOCAL-00001" summary="Стартовый коммит">
       <created>1565692588708</created>
@@ -227,7 +192,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576674776647</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="19.12.2019">
+      <created>1576756028572</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1576756028572</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -254,26 +226,31 @@
     <MESSAGE value="13.12.2019" />
     <MESSAGE value="17.12.2019" />
     <MESSAGE value="18.12.2019" />
-    <option name="LAST_COMMIT_MESSAGE" value="18.12.2019" />
+    <MESSAGE value="19.12.2019" />
+    <option name="LAST_COMMIT_MESSAGE" value="19.12.2019" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="698" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1576482512876">
+    <state x="698" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1577069210370">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="698" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/-1920.1.1920.1040@0.0.1920.1040" timestamp="1576482512876" />
-    <state x="585" y="113" key="CommitChangelistDialog2" timestamp="1576674774823">
+    <state x="698" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/-1920.1.1920.1040@0.0.1920.1040" timestamp="1577069210370" />
+    <state x="585" y="113" key="CommitChangelistDialog2" timestamp="1576756026677">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="585" y="113" key="CommitChangelistDialog2/0.0.1920.1040/-1920.1.1920.1040@0.0.1920.1040" timestamp="1576674774823" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1576674785166">
+    <state x="585" y="113" key="CommitChangelistDialog2/0.0.1920.1040/-1920.1.1920.1040@0.0.1920.1040" timestamp="1576756026677" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1576756030170">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.1.1920.1040@0.0.1920.1040" timestamp="1576674785166" />
-    <state x="656" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1576721776087">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.1.1920.1040@0.0.1920.1040" timestamp="1576756030170" />
+    <state x="656" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1577068231018">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="656" y="343" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/-1920.1.1920.1040@0.0.1920.1040" timestamp="1576632597803" />
-    <state x="656" y="343" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1576721776087" />
+    <state x="656" y="343" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/-1920.1.1920.1040@0.0.1920.1040" timestamp="1577068231018" />
+    <state x="656" y="343" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1576983676000" />
+    <state x="656" y="257" width="737" height="596" key="find.popup" timestamp="1577091031282">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="656" y="257" width="737" height="596" key="find.popup/0.0.1920.1040/-1920.1.1920.1040@0.0.1920.1040" timestamp="1577091031282" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1576127818909">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

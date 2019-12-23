@@ -1,0 +1,26 @@
+.members {
+    margin-top: 3rem;
+}
+.members__item {
+    margin-top: 2rem;
+}
+.members__item-title {
+    margin: 0;
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: $color-main;
+    a {
+        text-decoration: none;
+        color: inherit;
+        transition: .3s;
+        &:hover, &:active {
+            color: $color-accent;
+        }
+    }
+}
+.members__item-text {
+    margin: .5rem 0 0 0;
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: #000;
+}

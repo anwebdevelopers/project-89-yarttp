@@ -1,0 +1,41 @@
+.aside-data {
+    padding: 2rem;
+    background-color: #F4F7FA;
+    border-radius: .5rem;
+    background-position: calc(100% - 2rem) 100%;
+    -webkit-background-size: auto;
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+.aside-data__title {
+    font-size: 2.4rem;
+    font-weight: 600;
+    color: $color-main;
+}
+.aside-data__subtitle {
+    margin-top: 2rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.aside-data__list {
+    margin: 1.5rem 0 0 0;
+    padding: 0;
+    list-style: none;
+
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: $color-main;
+    li {
+        margin-top: 1.5rem;
+        a {
+            text-decoration: none;
+            color: inherit;
+            transition: .3s;
+
+            &:hover, &:active {
+                color: $color-accent;
+            }
+        }
+    }
+}

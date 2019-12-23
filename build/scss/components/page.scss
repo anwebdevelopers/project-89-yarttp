@@ -4,6 +4,9 @@
 .page__box {
     display: flex;
     justify-content: space-between;
+    &:not(:first-child) {
+        margin-top: 3rem;
+    }
 }
 .page__main {
     flex: 0 0 auto;
@@ -16,6 +19,11 @@
 
     .head__title {
         font-size: 2.7rem;
+    }
+    > * {
+        &:not(:first-child) {
+            margin-top: 3rem;
+        }
     }
 }
 
@@ -92,6 +100,19 @@
         &.active {
             font-weight: 700;
             color: $color-main;
+        }
+    }
+}
+.load-more {
+    margin-top: 5rem;
+    .button {
+        width: 100%;
+        background-color: #F4F7FA;
+        color: $color-main;
+
+        &:hover, &:active {
+            background-color: $color-accent;
+            color: #fff;
         }
     }
 }

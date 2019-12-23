@@ -1,0 +1,32 @@
+.filter {
+    margin-top: 3rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #B5C6DE;
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.filter__title {
+    flex: 0 1 auto;
+    margin-right: 3rem;
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: $color-main;
+}
+.filter__box {
+    flex: 1 1 auto;
+
+    display: flex;
+    flex-wrap: wrap;
+}
+.filter__item {
+    display: block;
+    flex: 0 1 auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+    &:not(:last-child) {
+        margin-right: 2rem;
+    }
+}

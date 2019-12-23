@@ -1,0 +1,117 @@
+.aside-logo {
+    margin: 0;
+    text-align: center;
+    img {
+        max-width: 100%;
+        width: auto;
+        height: auto;
+    }
+}
+.member {
+    margin-top: 2rem;
+}
+.member__title {
+    margin-top: 4rem;
+    font-size: 1.6rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: $color-main;
+    &:not(:first-child) {
+
+    }
+}
+.member__suptitle {
+    margin-top: 2rem;
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: #B3B3B3;
+}
+.member__subtitle {
+    margin-top: 2rem;
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: #000;
+}
+.member__data {
+    margin: 0 -1rem;
+    display: flex;
+    //flex-wrap: wrap;
+}
+.member__data-item {
+    flex: 0 0 auto;
+    width: calc(50% - 2rem);
+    margin: 0 1rem;
+}
+.member__text {
+    margin-top: 1rem;
+    font-size: 1.6rem;
+    font-weight: 500;
+    a {
+        //text-decoration: none;
+        color: $color-main;
+        transition: .3s;
+
+        &:hover, &:active {
+            color: $color-accent;
+        }
+    }
+}
+.member__contacts {
+    margin: 1rem 0 0 0;
+    padding: 0;
+    list-style: none;
+
+    font-size: 1.6rem;
+    font-weight: 500;
+
+    display: flex;
+    flex-wrap: wrap;
+    li {
+        flex: 0 1 auto;
+        &:not(:last-child) {
+            margin-right: 3rem;
+        }
+        a {
+            //text-decoration: none;
+            color: $color-main;
+            transition: .3s;
+
+            &:hover, &:active {
+                color: $color-accent;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width : 1440px) {
+
+}
+
+@media only screen and (max-width : 1280px) {
+
+}
+
+@media only screen and (max-width : 1024px) {
+
+}
+
+@media only screen and (max-width : 768px) {
+
+}
+
+@media only screen and (max-width : 640px) {
+    .member__data {
+        display: block;
+    }
+    .member__data-item {
+        width: auto;
+    }
+}
+
+@media only screen and (max-width : 480px) {
+
+}
+
+@media only screen and (max-width : 360px) {
+
+}

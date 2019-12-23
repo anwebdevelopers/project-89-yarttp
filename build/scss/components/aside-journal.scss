@@ -1,0 +1,116 @@
+.aside-journal {
+    margin-top: 3rem;
+    margin-right: 1rem;
+    padding: 3rem 2rem;
+    border-radius: .5rem;
+    color: #fff;
+    background-color: $color-main;
+    box-shadow: 1.5rem 0 0 -1rem transparentize($color-main, .7), 2.5rem 0 0 -1.5rem transparentize($color-main, .7);
+}
+.aside-journal__head {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.aside-journal__head-title {
+    flex: 0 1 auto;
+    margin-right: 2rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.aside-journal__head-link {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+    flex: 0 1 auto;
+    font-size: 1.4rem;
+    font-weight: 600;
+    transition: .3s;
+
+    &:hover, &:active {
+        color: $color-accent;
+    }
+}
+.aside-journal__title {
+    margin: 1rem 0 0 0;
+    font-size: 2.4rem;
+    font-weight: 600;
+    line-height: 1.25;
+    word-wrap: break-word;
+    a {
+        text-decoration: none;
+        color: inherit;
+        transition: .3s;
+
+        &:hover, &:active {
+            color: $color-accent;
+        }
+    }
+}
+.aside-journal__number {
+    margin-top: 2rem;
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+.aside-journal__date {
+    margin-top: .5rem;
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+.aside-journal__image {
+    margin: 2rem 0 0 0;
+    img {
+        max-width: 100%;
+        width: auto;
+        height: auto;
+    }
+}
+@media only screen and (max-width : 1440px) {
+
+}
+
+@media only screen and (max-width : 1280px) {
+
+}
+
+@media only screen and (max-width : 1024px) {
+
+}
+
+@media only screen and (max-width : 768px) {
+    .aside-journal {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row-reverse;
+    }
+    .aside-journal__content {
+        flex: 0 0 auto;
+        width: calc(50% - 1rem);
+    }
+    .aside-journal__image {
+        margin-top: 0;
+        flex: 0 0 auto;
+        width: calc(50% - 1rem);
+    }
+}
+
+@media only screen and (max-width : 640px) {
+
+}
+
+@media only screen and (max-width : 480px) {
+
+}
+
+@media only screen and (max-width : 360px) {
+    .aside-journal {
+        display: block;
+    }
+    .aside-journal__content {
+        width: auto;
+    }
+    .aside-journal__image {
+        margin-top: 2rem;
+        width: auto;
+    }
+}

@@ -163,6 +163,9 @@ body {
 	font-size: 4.8rem;
 	line-height: 1.25;
 	color: #000;
+	&:not(:first-child) {
+		margin-top: 1rem;
+	}
 }
 
 .text {
@@ -317,6 +320,17 @@ body {
 @import "components/aside-services";
 @import "components/news";
 @import "components/calendar";
+@import "components/aside-journal";
+@import "components/aside-subscribe";
+@import "components/aside-media";
+@import "components/article-head";
+@import "components/aside-data";
+@import "components/aside-news";
+@import "components/search";
+@import "components/filter";
+@import "components/members";
+@import "components/member";
+@import "components/company-news";
 
 
 @import "../../app/libs/swiper/css/swiper.min";

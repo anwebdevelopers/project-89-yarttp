@@ -81,16 +81,3 @@ a._dateStringParser=a.hasOwnProperty("dateStringParser")?function(b,d){return a.
 3);case "mm":return c.months[b.getMonth()].substring(0,2);case "m":return c.months[b.getMonth()].substring(0,1);case "MM":return(9>b.getMonth()?"0":"")+(b.getMonth()+1);case "M":return b.getMonth()+1;case "##":return(9>b.getMonth()?"0":"")+(b.getMonth()+1);case "#":return b.getMonth()+1;case "DAY":case "day":return c.days[b.getDay()];case "DDD":case "ddd":return c.days[b.getDay()].substring(0,3);case "dd":return c.days[b.getDay()].substring(0,2);case "d":return c.days[b.getDay()].substring(0,1);case "DD":return(9>=
 b.getDate()?"0":"")+b.getDate();case "D":return b.getDate();case "YYYY":case "yyyy":return b.getYear()+1900}};c._defaultDayStringParser=function(a,b,c){switch(a){case "DAY":case "day":return c.days[b];case "DDD":case "ddd":return c.days[b].substring(0,3);case "DD":case "dd":return c.days[b].substring(0,2);case "D":return c.days[b].substring(0,1)}};(function(){if("undefined"!==typeof window.jsCalendar_language2load){for(;window.jsCalendar_language2load.length;)setTimeout(function(a){return function(){c.addLanguage(a)}}(window.jsCalendar_language2load.pop()),
 0);delete window.jsCalendar_language2load}})();window.addEventListener("load",function(){c.autoFind()},!1);return c}();
-
-/*
- * jsCalendar language extension
- * Add Russian Language support
- * Translator: Grammatopoulos Athanasios-Vasileios (gramthanos@github)
- */
-
-// We love anonymous functions
-(function(){
-
-
-
-})();

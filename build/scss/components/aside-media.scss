@@ -1,0 +1,119 @@
+.aside-media {
+    margin-top: 2rem;
+}
+.aside-media__item {
+    text-decoration: none;
+    min-height: 17rem;
+    padding: 2rem 6rem 2rem 2rem;
+    margin-top: 2rem;
+    background-color: #6C6A66;
+    color: #fff;
+    border-radius: .5rem;
+
+    display: flex;
+    flex-direction: column;
+
+    position: relative;
+    z-index: 1;
+
+    &:hover, &:active {
+        .aside-media__item-title {
+            color: $color-accent;
+        }
+    }
+}
+
+.aside-media__item-image {
+    margin: 0;
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: .5rem;
+    overflow: hidden;
+    img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+
+    }
+    &:before {
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        background-image: linear-gradient(180deg, rgba(0, 0, 0, 0), #000);
+    }
+}
+.aside-media__item-icon {
+    position: absolute;
+    top: 2.4rem;
+    right: 2.4rem;
+    width: 2.4rem;
+    height: 2.4rem;
+    svg {
+        width: auto;
+        height: auto;
+        max-width: 100%;
+        max-height: 100%;
+    }
+}
+.aside-media__item-date {
+    margin-bottom: auto;
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+.aside-media__item-title {
+    margin: 1rem 0 0 0;
+    font-size: 1.6rem;
+    font-weight: 700;
+    transition: .3s;
+    word-wrap: break-word;
+}
+
+@media only screen and (max-width : 1440px) {
+
+}
+
+@media only screen and (max-width : 1280px) {
+
+}
+
+@media only screen and (max-width : 1024px) {
+
+}
+
+@media only screen and (max-width : 768px) {
+    .aside-media {
+        margin: 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .aside-media__item {
+        flex: 0 0 auto;
+        width: calc(50% - 1rem);
+    }
+}
+
+@media only screen and (max-width : 640px) {
+
+}
+
+@media only screen and (max-width : 480px) {
+    .aside-media {
+        display: block;
+    }
+    .aside-media__item {
+        width: auto;
+    }
+}
+
+@media only screen and (max-width : 360px) {
+
+}
