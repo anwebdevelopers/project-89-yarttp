@@ -395,4 +395,77 @@ document.addEventListener( 'DOMContentLoaded', function( event ) {
 
     } ( jQuery ) );
 
+
+    //*********************************************************//
+    //YANDEX MAP
+    //*********************************************************//
+    (function ($) {
+
+        const mapElem = document.querySelector('#map');
+
+        if (mapElem) {
+
+            const script = document.createElement('script');
+
+            script.src = '//api-maps.yandex.ru/2.1/?lang=ru_RU';
+
+            document.getElementsByTagName('head')[0].appendChild(script);
+
+            script.onload = function () {
+
+                ymaps.ready(function () {
+
+                    const myMap = new ymaps.Map('map', {
+                        center: [57.627176, 39.849122],
+                        zoom: 16,
+                        controls: [],
+                        behaviors: ['drag', 'dblClickZoom', 'rightMouseButtonMagnifier', 'multiTouch']
+                    }, {
+                        searchControlProvider: 'yandex#search'
+                    });
+
+                    //Элементы управления
+                    myMap.controls.add('zoomControl', {
+                        size: 'small',
+                        position: {
+                            top: 'auto',
+                            right: 10,
+                            bottom: 50
+                        }
+                    });
+
+                    myMap.geoObjects.add(new ymaps.Placemark(
+                        [57.627176, 39.849122],
+                        {
+                            hintContent: 'г. Ярославль, ул. Депутатская, 7',
+                            balloonContent: 'г. Ярославль, ул. Депутатская, 7',
+                        },
+                        {
+                            iconLayout: 'default#image',
+                            iconImageHref: 'img/icon-mark.svg',
+                            iconImageSize: [44, 60],
+                            iconImageOffset: [-22, -60],
+                        }
+                    ));
+
+
+                    const dragHandler = function () {
+                        window.innerWidth <= 1024 ? myMap.behaviors.disable('drag') : myMap.behaviors.enable('drag')
+                    };
+                    window.onload = dragHandler;
+                    window.onresize = dragHandler;
+
+                    typeof ResizeObserver === 'object' && new ResizeObserver(function (entries) {
+                        myMap.container.fitToViewport()
+                    }).observe(mapElem);
+
+                    myMap.container.fitToViewport();
+
+                });
+            }
+
+        }
+
+    }(jQuery));
+
 });

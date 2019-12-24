@@ -10,11 +10,11 @@
 }
 .page__main {
     flex: 0 0 auto;
-    width: calc(66.6666% - 1rem);
+    width: calc(70% - 1rem);
 }
 .page__aside {
     flex: 0 0 auto;
-    width: calc(33.3333% - 1rem);
+    width: calc(30% - 1rem);
     margin-top: 1rem;
 
     .head__title {
@@ -50,6 +50,15 @@
         margin-top: 3rem;
     }
 }
+.head__pretitle {
+    flex: 0 0 auto;
+    width: 100%;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: $color-main;
+    text-transform: uppercase;
+}
 .head__title {
     flex: 0 1 auto;
     margin: 0 2rem 0 0;
@@ -71,6 +80,10 @@
     &:hover, &:active {
         color: $color-accent;
     }
+}
+.head__button {
+    flex: 0 1 auto;
+    margin-top: 1rem;
 }
 
 .tags {

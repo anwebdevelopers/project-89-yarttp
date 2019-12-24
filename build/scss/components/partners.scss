@@ -1,15 +1,15 @@
-.parthners {
+.partners {
     padding: 3rem 0;
 }
 
-.parthners__box {
+.partners__box {
     margin: 2rem -1rem 0 -1rem;
 
     display: flex;
     flex-wrap: wrap;
 }
 
-.parthners__item {
+.partners__item {
     display: block;
     text-decoration: none;
     color: inherit;
@@ -40,7 +40,7 @@
 }
 
 @media only screen and (max-width : 768px) {
-    .parthners__item {
+    .partners__item {
         width: calc(33.3333% - 2rem);
     }
 }
@@ -50,7 +50,7 @@
 }
 
 @media only screen and (max-width : 480px) {
-    .parthners__item {
+    .partners__item {
         width: calc(50% - 2rem);
     }
 }

@@ -1,16 +1,29 @@
 .aside-logo {
     margin: 0;
-    text-align: center;
+
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     img {
         max-width: 100%;
         width: auto;
         height: auto;
     }
+    a {
+        margin-top: .5rem;
+        color: $color-main;
+        transition: .3s;
+
+        &:hover, &:active {
+            color: $color-accent;
+        }
+    }
 }
 .member {
     margin-top: 2rem;
 }
-.member__title {
+.member__heading {
     margin-top: 4rem;
     font-size: 1.6rem;
     font-weight: 600;
@@ -18,6 +31,15 @@
     color: $color-main;
     &:not(:first-child) {
 
+    }
+}
+.member__title {
+    margin: 0;
+    font-size: 2.7rem;
+    font-weight: 600;
+    color: #000;
+    &:not(:first-child) {
+        margin-top: 3rem;
     }
 }
 .member__suptitle {
@@ -79,6 +101,53 @@
             &:hover, &:active {
                 color: $color-accent;
             }
+        }
+    }
+}
+
+.member__change-button {
+    margin-top: 3rem;
+    .button {
+        background-color: $color-main;
+
+        &:hover, &:active {
+            background-color: $color-accent;
+        }
+    }
+}
+.member__footnote {
+    margin-top: 2rem;
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: #B3B3B3;
+}
+
+.member__form {
+    margin-top: 3rem;
+}
+
+.member__form-textarea {
+    @include input;
+    width: 100%;
+    min-height: 28rem;
+    margin-top: 3rem;
+    resize: vertical;
+    padding: 2rem;
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 1.5;
+    color: inherit;
+    border-radius: .5rem;
+    background-color: #F2F5F9;
+}
+
+.member__form-button {
+    margin-top: 3rem;
+    .button {
+        background-color: $color-main;
+
+        &:hover, &:active {
+            background-color: $color-accent;
         }
     }
 }
